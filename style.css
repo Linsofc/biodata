@@ -57,14 +57,14 @@ body {
 }
 /* START */
 
-.primary #card {
+#card {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.primary #card a {
+#card a {
   display: flex;
   justify-content: center;
   width: 300px;
@@ -75,29 +75,29 @@ body {
   transition: 500ms;
   text-decoration: none;
 }
-.primary #card a:hover {
+
+#card a:hover {
   filter: grayscale(1);
   transform: scale(1.05);
 }
-.primary #card a img {
+
+#card a img {
   display: flex;
   align-items: left;
   justify-content: left;
   border-radius: 13px;
   height: auto;
   margin: 10px;
-  padding: auto;
-  /* transition: 400ms; */
 }
 
-.primary #card a p {
+#card a p {
   color: var(--teks);
   font-style: inherit;
   font-size: 10px;
   text-align: left;
-  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.primary #card a p span {
+#card a p span {
   color: var(--span);
 }

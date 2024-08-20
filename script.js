@@ -1,5 +1,5 @@
-async function friendListsElement() {
-  const friendLists = document.getElementById("card");
+async function getDataJson() {
+  const card = document.getElementById("card");
   const data = await fetch("./data.json").then((res) => res.json());
 
   const lists = `
@@ -23,7 +23,7 @@ async function friendListsElement() {
       .join("")}
   `;
 
-  return (friendLists.innerHTML = lists);
+  return (card.innerHTML = lists);
 }
 
-friendListsElement();
+getDataJson();
