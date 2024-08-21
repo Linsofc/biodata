@@ -90,6 +90,11 @@ body {
   margin: 10px;
 }
 
+#card a .img img {
+  width: 100px;
+  height: 135px;
+}
+
 #card a p {
   color: var(--teks);
   font-style: inherit;

@@ -9,7 +9,9 @@ async function getDataJson() {
         <a href="https://wa.me/62${i.no
           .replace(/[^0-9]/g, "")
           .slice(1)}" target="_blank">
-          <img src="${i.fotoselfie}" alt="Foto" height="120px" width="100px" />
+          <div class="img">
+          <img src="${i.fotoselfie}" alt="Foto" height="100px" width="100px" />
+          </div>
           <p>
             <span>Nim :</span> ${i.nim} <br />
             <span>Nama :</span> ${i.nama} <br />
